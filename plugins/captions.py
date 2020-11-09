@@ -34,9 +34,4 @@ async def old(bot, update):
         message_id=update.message_id,
         caption=output,
         parse_mode="markdown", #also you can set html or none
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [InlineKeyboardButton('📍 𝗠𝗢𝗗𝗭𝗜𝗟𝗟𝗔 📍', url='https://t.me/joinchat/AAAAAE-44AkxSyqIMj1tdQ')],
-            ]  
-        )
     )
