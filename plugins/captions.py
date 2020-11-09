@@ -36,7 +36,7 @@ async def old(client, message):
         parse_mode="markdown", #also you can set html or none
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton('', url='')],
+                [InlineKeyboardButton('📍 𝗠𝗢𝗗𝗭𝗜𝗟𝗟𝗔 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 📍', url='https://t.me/joinchat/AAAAAE-44AkxSyqIMj1tdQ')],
             ]  
         )
     )
