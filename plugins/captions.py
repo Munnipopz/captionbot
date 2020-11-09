@@ -29,6 +29,7 @@ async def old(client, message):
     await client.edit_message_caption(
         chat_id=message.chat.id,
         message_id=message.message_id,
+        parse_mode="markdown", #also you can set html or none
         caption=Translation.CAP_TION,
         reply_markup=InlineKeyboardMarkup(
             [
