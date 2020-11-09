@@ -26,7 +26,6 @@ async def start(bot, update):
 
 @pyrogram.Client.on_message(pyrogram.Filters.document) # @pyrogram.Client.on_message(pyrogram.Filters.document | Filters.video) set like this to trigger both or remove filters.document and add filters.video for video only
 async def old(client, message):
-    stock = update.caption
     join = Translation.CAP_TION
     output = stock + join
     await client.edit_message_caption(
